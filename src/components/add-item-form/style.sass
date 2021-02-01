@@ -1,0 +1,65 @@
+section.form-container
+  border-bottom: 2px solid black
+  padding-bottom: 1rem
+  transition: all ease-in-out 0.5s
+  form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    input[type='text']
+      flex-grow: 3
+    input[type='submit']
+      flex-grow: 1
+      font-weight: bold
+      background: #47af28
+      color: #fff
+      border: 2px solid #47921c
+    input
+      padding: 0.8rem 0.5rem
+      margin: 0 0.2rem
+      background: #fff
+      border: 1px solid #4eb82d
+      font-weight: bold
+      border-radius: 0.6rem
+      color: #444
+  small.error-msg
+    animation: slide-from-top ease-in-out 0.3s
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    background: beige
+    padding: 0.5rem
+    border: 1px solid #c3c393
+    border-radius: 0.7rem
+    height: 2rem
+    position: absolute
+    top: 50px
+    left: 50%
+    transform: translate(-50%, 0)
+    padding-right: 4rem
+    span.txt
+      margin-left: 0.5rem
+      margin-top: 0.5rem
+      display: block
+      color: #d87171
+    button.close
+      border-radius: 50%
+      border: 1px solid #9a9a6c
+      background: transparent
+      width: 24px
+      height: 24px
+      font-size: 20px
+      display: flex
+      align-items: center
+      transform: rotate(45deg)
+      margin-left: 2rem
+      position: absolute
+      right: 8px
+      top: 12px
+      color: #cf5b5b
+
+@keyframes slide-from-top
+  0%
+    top: -50px
+  100%
+    top: 50px
