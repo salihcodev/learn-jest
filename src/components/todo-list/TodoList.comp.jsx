@@ -1,5 +1,5 @@
 // importing...
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import './style.sass';
 import { TodoContext } from '../../context/Context';
 

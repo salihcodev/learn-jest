@@ -8,7 +8,7 @@ import { TodoProvider } from './context/Context';
 ReactDOM.render(
   <React.StrictMode>
     <TodoProvider>
-      <App />
+      <App appTitle="Add todo item." />
     </TodoProvider>
   </React.StrictMode>,
   document.getElementById('root')

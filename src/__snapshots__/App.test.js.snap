@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check for 'App' Should have 'appTitle' prop 1`] = `ShallowWrapper {}`;
